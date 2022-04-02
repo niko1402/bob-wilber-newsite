@@ -1,0 +1,25 @@
+Landing Page
+
+Header
+    Name
+    Nav bar
+        About
+        Media
+            Listening
+            Videos
+            Interviews
+        Written
+            Articles
+            Stories
+        Contact
+            Contact form
+
+Main
+    Background image
+    Welcome text
+    Secondary image (paralax?)
+
+Footer
+    Contact link
+    Policies
+    Copyright
