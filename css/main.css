@@ -266,6 +266,9 @@ header .content-wrapper {
   background-color: #284B63;
 }
 
+nav h3 {
+  color: #d9d9d9;
+}
 /* #navbar.sticky {
   position: fixed;
   top: 0;
@@ -310,7 +313,19 @@ ul li a:hover {
 }
 
 
+/* ==================== Mobile Styles ==================== */
 
+.hero-area .content-wrapper {
+  width: 100%;
+}
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  background: url('../img/full-backgroundbw.png') center no-repeat;
+  background-size: cover;
+}
 
 
 /* ==========================================================================
