@@ -28,12 +28,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #f4f4f4;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #f4f4f4;
   text-shadow: none;
 }
 
@@ -105,11 +105,12 @@ ul, ol {
   padding: 0;
 }
 
-h1, h2, h3, h4, a, p {
-  color: #e2e3ed;
+h1, h2, h3 {
+  color: #C0B283;
 }
 
 a {
+  color: #373737;
   text-decoration: none;
 }
 
@@ -128,6 +129,7 @@ h3, h4 {
 }
 
 p {
+  color: #373737;
   font-size: 0.875em;
   line-height: 1.285;
 }
@@ -151,23 +153,13 @@ address {
  /* ----------------------- Base Header - Footer Styles ------------------*/
 
 header {
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  background-color: #f4f4f4;
+  padding: 30px 0 140px 0;
  }
 
-header {
-  padding: 15px 0;
-  }
-
-header figure {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+header h3 {
+ margin-top: 0;
+ margin-bottom: 0;
 }
 
 header .content-wrapper {
@@ -191,9 +183,8 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   font-size: 1.125em;
-  font-weight: 700;
-  text-transform: uppercase;
-  width: 60%;
+  font-weight: 400;
+  width: 100%;
  }
 
 header nav ul {
@@ -260,7 +251,7 @@ footer .copyright {
  display: flex;
  justify-content: center;
  flex-flow: row wrap;
- background: url('../img/cropped-Bob_Wilber_Sidney_Bechet_Gottlieb_09161-1024x615.jpg') center no-repeat #333;
+ background: url('../img/Bob-Sidney-cropped.jpg') center no-repeat #333;
  background-size: cover;
  min-height: 500px;
 }
@@ -343,22 +334,11 @@ input[type=button] {
   margin-bottom: 30px;
 }
 
-.reviews {
-  background-color: #2a423a;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
+.hero-two {
+  background: url('../img/bob-nik-arborsjazz.jpg') top no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
 }
-
-.reviews h2 {
-  margin-bottom: 30px;
-  line-height: 1;
-}
-
-.reviews h3 {
-  width: 50%;
-  margin: 20px 0;
- }
 
 /* ============== About Page ============== */
 
