@@ -94,12 +94,12 @@ html {
 }
 
 body {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
 }
 
-ul, ol {
+ul, li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -114,23 +114,27 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
+  font-size: 1.75rem;
   font-weight: 500;
   margin: 0;
 }
 
 h3, h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
+  font-size: 1.125rem;
   font-weight: 500;
   margin: 20px 0;
 }
 
-p {
+p, li {
   color: #373737;
-  font-size: 0.875em;
+  font-size: 1rem;
   line-height: 1.285;
 }
 
@@ -150,16 +154,72 @@ address {
   width: 90%;
   margin: 50px 0;
 }
- /* ----------------------- Base Header - Footer Styles ------------------*/
+
+/* ------------------------ Structural Styles --------------------------- */
+
+.content {
+  text-align: center;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
+}
+
+.content-wrapper {
+  width: 85%;
+}
+
+/* ------------------------ Zero all margins ---------------------------- */
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/****************** Set margins and paddings ***************/
+
+h2 {
+  padding: 40px 0 40px 0;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin: 0 0 40px 0;
+}
+
+footer {
+  padding: 80px 0;
+}
+
+.hero-area {
+  margin: 0;
+}
+
+.copyright {
+  margin-top: 50%;
+}
+
+/* ----------------------- Base Header - Footer Styles ------------------*/
 
 header {
-  background-color: #f4f4f4;
-  padding: 30px 0 140px 0;
+  background-color: #DCD0C0;
+  padding: 30px 0 70px 0;
  }
 
 header h3 {
- margin-top: 0;
- margin-bottom: 0;
+  font-size: 1.375rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 header .content-wrapper {
@@ -212,15 +272,17 @@ footer p {
 }
 
 footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 footer .social-icons p i {
   font-size: 1.3em;
 }
 
-footer .social-icons p {
+/* footer .social-icons p {
   background-color: #527158;
   border-radius: 50%;
   height: 40px;
@@ -234,10 +296,11 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
+} */
 
 footer .copyright {
   margin: 20px 0;
+  width: 100%;
 }
 
 .copyright p {
@@ -256,46 +319,30 @@ footer .copyright {
  min-height: 500px;
 }
 
+.hero-area .content-wrapper {
+  margin-top: 100px;
+  margin-bottom: 0;
+  width: 95%;
+}
+
+.hero-area .title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: baseline;
+  text-align: left;
+  margin-top: 100px
+}
+
 .hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  padding-top: 200px;
 }
 
-aside {
-  background-color: #527158;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-aside .form {
-  margin-top: 30px;
-}
-
-input[type=text] {
-  box-sizing: border-box;
-  border: 0;
-  width: 100%;
-  color: #2a423a;
-  font-style: italic;
-  padding: 0.625em;
-}
-
-input[type=button] {
-  width: 100%;
-  padding: 10px 0;
-  margin-top: 20px;
-  background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1.125em;
-  color: #e2e3ed;
-  border: none;
-  text-align: center;
-  text-transform: uppercase;
+.hero-area h3 {
+  margin-top: 15px;
 }
 
 .features {
@@ -316,7 +363,8 @@ input[type=button] {
 }
 
 .features h2 {
-  margin-bottom: 63px;
+  text-align: center;
+  font-weight: 700;
 }
 
 .features article {
