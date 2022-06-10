@@ -276,6 +276,7 @@ footer .content-wrapper {
   flex-flow: row wrap;
   justify-content: center;
   align-items: flex-start;
+  width: 100%;
 }
 
 footer .social-icons p i {
