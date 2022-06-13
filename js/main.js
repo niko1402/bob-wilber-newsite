@@ -15,15 +15,15 @@ window.addEventListener("scroll", e => {
     navbar.classList.remove('sticky');
   };
   
-  // Loop through links in navbar
-  navbarLinks.forEach(link => {
-    const section = document.querySelector(link.hash);
-    // Check if the section is currently onscreen. Add 150 to switch sections when the screen is almost showing 100% of that section
-    // If so, add active class
-    if (scrollPos + 150 > section.offsetTop && scrollPos + 150 < section.offsetTop + section.offsetHeight ) {
-      link.classList.add("active");
-    } else {
-      link.classList.remove("active");
-    }
-  });
+  // // Loop through links in navbar
+  // navbarLinks.forEach(link => {
+  //   const section = document.querySelector(link.hash);
+  //   // Check if the section is currently onscreen. Add 150 to switch sections when the screen is almost showing 100% of that section
+  //   // If so, add active class
+  //   if (scrollPos + 150 > section.offsetTop && scrollPos + 150 < section.offsetTop + section.offsetHeight ) {
+  //     link.classList.add("active");
+  //   } else {
+  //     link.classList.remove("active");
+  //   }
+  // });
 });

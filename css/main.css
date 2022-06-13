@@ -368,9 +368,6 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/rawpixel-800820-unsplash1.jpg') no-repeat center;
-  background-size: cover;
-
 }
 
 .welcome-area .content-wrapper {
@@ -605,7 +602,7 @@ footer .copyright {
   }
 
   header nav {
-   width: 25%;
+   width: 55%;
   }
 
   header nav ul {
@@ -625,6 +622,11 @@ footer .copyright {
   .hero-area {
     min-height: 600px;
   }
+
+  .hero-area .title {
+    margin-top: 150px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
