@@ -690,7 +690,7 @@ footer .copyright {
 
       /* Reviews */
 
-  .reviews article {
+  /* .reviews article {
     display: flex;
     justify-content: space-between;
   }
@@ -707,7 +707,7 @@ footer .copyright {
   .reviews h3 {
     width: 75%;
     margin: 0;
-  }
+  } */
 
       /* Footer */
 
@@ -793,7 +793,7 @@ footer .copyright {
   /*  ===================================================================
       FAQ Page
       =================================================================== */
-  .faq .content-wrapper {
+  /* .faq .content-wrapper {
     justify-content: space-between;
   }
 
@@ -810,6 +810,20 @@ footer .copyright {
     font-size: 0.875em;
     line-height: 1.125;
   }
+} */
+
+@media only screen and (min-width: 1024px) {
+
+
+  /* ========== added for landscape view on tablets and iPad Pro ==========*/
+
+  .content-wrapper {
+    max-width: 900px;
+  }
+
+  .project-title {
+    font-size: 1.75rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -817,7 +831,7 @@ footer .copyright {
     /******** Desktop styles here ********/
 
   .content-wrapper {
-    max-width: 960px;
+    max-width: 1450px;
   }
 
   /*  ==================================================================
@@ -854,7 +868,7 @@ footer .copyright {
 
       /* Aside */
 
-  aside .content-wrapper {
+  /* aside .content-wrapper {
     justify-content: space-around;
   }
 
@@ -862,11 +876,11 @@ footer .copyright {
   aside .content-wrapper .form {
     width: 27%;
     margin: 0;
-  }
+  } */
 
-  .form-description p {
+  /* .form-description p {
     font-size: 1.125em;
-  }
+  } */
       /* Features */
 
   .features article {
@@ -893,7 +907,7 @@ footer .copyright {
     /*  ===================================================================
         About Page
         =================================================================== */
-
+/* 
   .mission h2,
   .contact-section .content-wrapper h2 {
     font-size: 3em;
@@ -922,7 +936,7 @@ footer .copyright {
     font-size: 1.125em;
     line-height: 1;
   }
-}
+} */
 
 /* ==========================================================================
    Print styles.
